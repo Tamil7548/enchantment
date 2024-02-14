@@ -1,0 +1,29 @@
+			body{
+				background-image:url("D:/hejex technology/project/images/OIP (1).jpg");
+				}
+			.one{
+				background-color:khaki;
+				border:1px hidden white;
+				border-radius: 10px;
+				}
+			.two{
+				text-align:justify;
+				}
+			.three{
+				border:1px solid white;
+				border-radius: 10px;
+				padding:10px 30px;
+				background-color:orange;
+				color:white;
+				
+				}
+			.four{
+				border:1px solid white;
+				}
+			.five{
+				background-color: orange;
+				border:1px solid white;
+				}
+			.eleven{
+				color:white;
+			}

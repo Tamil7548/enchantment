@@ -1,0 +1,50 @@
+			body{
+				font-family:Arial,Helvatice,san-serif;
+				background-image:url("D:/hejex technology/project/images/OIP (1).jpg");
+				}
+			.one{
+				color:white;
+				}
+			.two{
+				background-color:orange;
+				color:white;
+				padding:5px 40px;
+				}
+			.three{
+				border:1px solid orange;
+				padding:5px 40px;
+				background-color:white;
+				}
+			.four{
+				border:1px solid orange;
+				padding:5px 40px;
+				background-color:white;
+				}
+			.five{
+				border:1px solid orange;
+				padding:5px 40px;
+				background-color:white;
+				}
+			.six{
+				border:1px solid white;
+				border-radius:20px;
+				}
+			.seven{
+				color: orange;
+				padding:0px 100px;
+				}
+			.eight{
+				border:1px solid white;
+				border-radius:10px;
+				padding:5px 30px;
+				color:white;
+				background-color:orange;
+				}
+			.nine{
+				color:orange;
+				padding:0px 80px;
+				}
+			.ten{
+				color:orange;
+				padding:0px 80px;
+				}

@@ -1,0 +1,380 @@
+<html>
+	<head>
+		<title> tamil developers </title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		<style>
+			body{
+				background-image:url("D:/hejex technology/project/images/OIP (1).jpg");
+				}
+			.one{
+				background-color: orange;
+				color: white;
+				}
+			.two{
+				background-color: teal;
+				color: white;
+				}
+			.three{	
+				background-color: orange;
+				color:white;
+				border:1px solid white;
+				}
+			.four{
+				top: 30;
+				}
+			.five{	
+				background-color: orange;
+				color:white;
+				border:1px solid white;
+				}
+			.six{
+				border:1px solid white;
+				background-color: orange;
+				}
+		</style>
+	</head>
+	<body>
+		<div class = "container">
+			<nav class = "navbar navbar-inverse" style = "background-color: black;">
+				<div class = "container-fluid">
+					<div class = "navbar-header">
+						<button type = "button" class = "navbar-toggle" data-toggle = "collapse" data-target = "#mynavbar">
+							<span class = "icon-bar"> </span>
+							<span class = "icon-bar"> </span>
+							<span class = "icon-bar"> </span>
+						</button>
+						<img src = "D:\hejex technology\project2\images\en.png" class = "img-responsive">
+					</div>
+					<div class = "collapse navbar-collapse" id = "mynavbar">
+						<ul class = "nav navbar-nav navbar-right" style = "margin: 8px 0px;">
+							<li class = "active"><a href="D:\hejex technology\project2\index.html"> Home </a></li>
+							<li> <a href = "D:\hejex technology\project2\foodmenu.html"> Food Menu </a></li>
+							<li> <a href = "D:\hejex technology\project2\reserve.html"> Reserve Table </a> </li>
+							<li> <a href = "D:\hejex technology\project2\packages.html"> Packages </a> </li>
+							<li> <a href = "D:\hejex technology\project2\aboutus.html"> About Us </a> </li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<div class = "container">
+				<div class = "row four">
+					<div class = "col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						<h2 style = "margin: 40px 40px; color:white;"> Reserve Your <span style = "color: orange;">Table </span> <br> & <span style = "color: orange;">Order </span> Your Meal </h2>
+						<p style = "margin: 40px 40px; text-align: justify; color:white;"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+						<div class = "col-sm-6 col-xs-6">
+							<button type = "button" class = "btn btn-default one" data-toggle = "modal" data-target = "#mymodal" style = "padding: 10px 20px; margin: 0px 30px;"> Reserve Table </button>
+							<div class = "modal fade" id = "mymodal" role = "dialog">
+								<div class = "modal-dialog">
+									<div class = "modal-content" style ="background-color:khaki;">										
+										<div class = "modal-header">
+											<button type = "button" class = "close" data-dismiss = "modal"> x </button>
+												<h4 class = "title"> Reserve Table </h4>
+										</div>
+										<div class = "modal-body">
+											<div class = "col-lg-6 col-md-6 col-sm-12 col-xs-12">
+												<img src = "D:\hejex technology\project2\images\modal.png" class = "img-responsive">
+											</div>
+											<div class = "col-lg-6 col-md-6 col-sm-12 col-xs-12" style="margin-top:20px;">
+												<form class = "form-horizontal">
+													<input type ="text" class = "form-control" id = "name" placeholder = "Name"><br>
+													<input type = "number" class = "form-control" id = "phno" placeholder = "Phone Number"><br>
+													<input type = "number" class = "form-control" id = "tano" placeholder = "Table Number"><br>
+													<input type = "date" class = "form-control" id = "date" placeholder = "Date"><br>
+													<input type = "time" class = "form-control" id = "time" placeholder = "Time"><br>
+													<input type = "email" class = "form-control" id = "email" placeholder = "Email"><br>
+													<center><button type = "submit" class = "btn btn-info"> Reserve Table </button></center>
+												</form>
+											</div>
+										</div>
+										<div class = "modal-footer">
+											<center> <button type = "button" class = "btn btn-info" data-dismiss = "modal"> close </button></center>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class = "col-sm-6 col-xs-6">
+							<button type = "button" class = "btn btn-default two" data-toggle = "modal" data-target = "#mymodal" style = "padding: 10px 20px; margin: 0px 10px;"> Order Food </button>
+						</div>
+					</div>
+					<div class = "col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						<img src = "D:\hejex technology\project2\images\firstpage.png" class = "img-responsive" style = "border: 1px solid white; border-radius: 10px;">
+					</div>
+				</div>
+			</div>
+			<br>
+			<div class = "container">
+				<center> <h2 style="color:white;"> Food Menu </h2> </center>
+				<div id = "mycarousel" class = "carousel slide" data-ride = "carousel">
+					<ol class = "carousel-indicators">
+						<li data-target = "#mycarousel" data-slide-to = "0" class = "active"> </li>
+						<li data-target = "#mycarousel" data-slide-to = "1"> </li>
+						<li data-target = "#mycarousel" data-slide-to = "2"> </li>
+						<li data-target = "#mycarousel" data-slide-to = "3"> </li>
+						<li data-target = "#mycarousel" data-slide-to = "4"> </li>
+						<li data-target = "#mycarousel" data-slide-to = "5"> </li>
+						<li data-target = "#mycarousel" data-slide-to = "6"> </li>
+						<li data-target = "#mycarousel" data-slide-to = "7"> </li>
+						<li data-target = "#mycarousel" data-slide-to = "8"> </li>
+						<li data-target = "#mycarousel" data-slide-to = "9"> </li>
+						<li data-target = "#mycarousel" data-slide-to = "10"> </li>
+						<li data-target = "#mycarousel" data-slide-to = "11"> </li>
+					</ol>
+					<div class = "carousel-inner">
+						<div class = "row">
+							<div class = "col-lg-4 col-md-4 col-sm-12 col-xs-12 item active">
+								<img src = "D:\hejex technology\project2\images\friedchicken.png" class = "img-responsive" style = "border: 1px solid white; border-radius: 10px;">
+								<div class = "carousel-caption">
+									<h4> Fried Chicken </h4>
+									<a href = "#" class="btn btn-info six"> Order Now </a>
+								</div>
+							</div>
+							<div class = "col-lg-4 col-md-4 col-sm-12 col-xs-12 item">
+								<img src = "D:\hejex technology\project2\images\burger.png" class = "img-responsive" style = "border: 1px solid white; border-radius: 10px;">
+								<div class = "carousel-caption">
+									<h4> Burger </h4>
+									<a href = "#"  class="btn btn-info six"> Order Now </a>
+								</div>
+							</div>
+							<div class = "col-lg-4 col-md-4 col-sm-12 col-xs-12 item">
+								<img src = "D:\hejex technology\project2\images\noodles.png" class = "img-responsive" style = "border: 1px solid white; border-radius: 10px;">
+								<div class = "carousel-caption">
+									<h4> Noodles </h4>
+									<a href = "#"  class="btn btn-info six"> Order Now </a>
+								</div>
+							</div>
+							<div class = "col-lg-4 col-md-4 col-sm-12 col-xs-12 item">
+								<img src = "D:\hejex technology\project2\images\pizza.png" class = "img-responsive" style = "border: 1px solid white; border-radius: 10px;">
+								<div class = "carousel-caption">
+									<h4> Pizza </h4>
+									<a href = "#"  class="btn btn-info six"> Order Now </a>
+								</div>
+							</div>
+							<div class = "col-lg-4 col-md-4 col-sm-12 col-xs-12 item">
+								<img src = "D:\hejex technology\project2\images\shawarma.png" class = "img-responsive" style = "border: 1px solid white; border-radius: 10px;">
+								<div class = "carousel-caption">
+									<h4> Shawarma </h4>
+									<a href = "#"  class="btn btn-info six"> Order Now </a>
+								</div>
+							</div>
+							<div class = "col-lg-4 col-md-4 col-sm-12 col-xs-12 item">
+								<img src ="D:\hejex technology\project2\images\friedrice.png" class = "img-responsive"  style = "border: 1px solid white; border-radius: 10px;">
+								<div class = "carousel-caption">
+									<h4> Fride Rice </h4>
+									<a href = "#" class="btn btn-info six"> Order Now </a>
+								</div>
+							</div>
+							<div class = "col-lg-4 col-md-4 col-sm-12 col-xs-12 item">
+								<img src ="D:\hejex technology\project2\images\coffee.png" class = "img-responsive"  style = "border: 1px solid white; border-radius: 10px;">
+								<div class = "carousel-caption">
+									<h4> Coffee </h4>
+									<a href = "#"  class="btn btn-info six"> Order Now </a>
+								</div>
+							</div>
+							<div class = "col-lg-4 col-md-4 col-sm-12 col-xs-12 item">
+								<img src ="D:\hejex technology\project2\images\freshjuice.png" class = "img-responsive"  style = "border: 1px solid white; border-radius: 10px;">
+								<div class = "carousel-caption">
+									<h4> Fresh Juice </h4>
+									<a href = "#"  class="btn btn-info six"> Order Now </a>
+								</div>
+							</div>
+							<div class = "col-lg-4 col-md-4 col-sm-12 col-xs-12 item">
+								<img src ="D:\hejex technology\project2\images\icecream.png" class = "img-responsive"  style = "border: 1px solid white; border-radius: 10px;">
+								<div class = "carousel-caption">
+									<h4> Ice Cream </h4>
+									<a href = "#"  class="btn btn-info six"> Order Now </a>
+								</div>
+							</div>
+							<div class = "col-lg-4 col-md-4 col-sm-12 col-xs-12 item">
+								<img src ="D:\hejex technology\project2\images\cake.png" class = "img-responsive"  style = "border: 1px solid white; border-radius: 10px;">
+								<div class = "carousel-caption">
+									<h4> Cakes </h4>
+									<a href = "#"  class="btn btn-info six"> Order Now </a>
+								</div>
+							</div>
+							<div class = "col-lg-4 col-md-4 col-sm-12 col-xs-12 item">
+								<img src = "D:\hejex technology\project2\images\puffs.png" class = "img-responsive"  style = "border: 1px solid white; border-radius: 10px;">
+								<div class = "carousel-caption">
+									<h4> Puffs </h4>
+									<a href = "#"  class="btn btn-info six"> Order Now </a>
+								</div>
+							</div>
+							<div class = "col-lg-4 col-md-4 col-sm-12 col-xs-12 item">
+								<img src = "D:\hejex technology\project2\images\frenchfries.png" class = "img-responsive"  style = "border: 1px solid white; border-radius: 10px;">
+								<div class = "carousel-caption">
+									<h4> French Fries </h4>
+									<a href = "#"  class="btn btn-info six"> Order Now </a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a class = "left carousel-control" href = "#mycarousel" data-slide = "prev">
+						<span class = "glyphicon glyphicon-cheveron-left"> </span>
+						<span class = "sr-only"> previous </span>
+					</a>
+					<a class = "right carousel-control" href = "#mycarousel" data-slide = "next">
+						<span class = "glyphicon glyphicon-cheveron-right"> </span>
+						<span class = "sr-only"> Next </span>
+					</a>
+				</div>
+			</div>
+			<br>
+			<div class = "container">
+				<center> <h2 style="color:white;"> Popular Dishes </h2> </center>
+				<div class = "row">
+					<div class = "col-lg-4 col-md-4 col-sm-12 col-xs-12"> 
+						<img src = "D:\hejex technology\project2\images\burger1.png" class = "img-responsive" style = "border: 1px solid white; border-radius: 20px;">
+						<h4 style = "padding:0px 10px; color:white;"> Burger  <span  style ="padding:0px 80px; color: orange; "> $180.00 </span> </h4> 
+						<p style = "padding:0px 10px; color:white;"> Lorem ipsum is simply dummy text of the printing and typesetting industry just example for this website.<br>
+						<center> <button type = "button" class = "btn btn-info three" style ="margin-top: 5px; padding: 10px 120px;"> ORDER NOW </button> </center> </p>
+					</div>
+					<div class = "col-lg-4 col-md-4 col-sm-12 col-xs-12"> 
+						<img src = "D:\hejex technology\project2\images\chicken1.png" class = "img-responsive" style = "border: 1px solid white; border-radius: 20px;">
+						<h4 style = "padding:0px 10px; color:white;"> Chicken  <span style ="padding:0px 80px; color: orange;"> $77.60 </span> </h4> 
+						<p style = "padding:0px 10px; color:white;"> Lorem ipsum is simply dummy text of the printing and typesetting industry just example for this website.<br>
+						<center> <button type = "button" class = "btn btn-info three" style ="margin-top: 5px; padding: 10px 120px;"> ORDER NOW </button> </center></p>
+					</div>
+					<div class = "col-lg-4 col-md-4 col-sm-12 col-xs-12"> 
+						<img src = "D:\hejex technology\project2\images\friedchicken1.png" class = "img-responsive" style = "border: 1px solid white; border-radius: 20px;">
+						<h4 style = "padding:0px 10px; color:white;"> Fried Chicken  <span style ="padding:0px 50px; color: orange;"> $85.00 </span> </h4> 
+						<p style = "padding:0px 10px; color:white;"> Lorem ipsum is simply dummy text of the printing and typesetting industry just example for this website.<br>
+						<center> <button type = "button" class = "btn btn-info three" style ="margin-top: 5px; padding: 10px 120px;"> ORDER NOW </button> </center></p>
+					</div>
+				</div>
+				<br>
+				<div class = "row">
+					<div class = "col-lg-4 col-md-4 col-sm-12 col-xs-12"> 
+						<img src = "D:\hejex technology\project2\images\pastha.png" class = "img-responsive" style = "border: 1px solid white; border-radius: 20px;">
+						<h4 style = "padding:0px 10px; color:white;"> Pastha <span style ="padding:0px 80px; color: orange;"> $30.10 </span> </h4> 
+						<p style = "padding:0px 10px; color:white;"> Lorem ipsum is simply dummy text of the printing and typesetting industry just example for this website.<br>
+						<center> <button type = "button" class = "btn btn-info three" style ="margin-top: 5px; padding: 10px 120px;"> ORDER NOW </button> </center></p>
+					</div>
+					<div class = "col-lg-4 col-md-4 col-sm-12 col-xs-12"> 
+						<img src = "D:\hejex technology\project2\images\grilchicken.png" class = "img-responsive" style = "border: 1px solid white; border-radius: 20px;">
+						<h4 style = "padding:0px 10px; color:white;"> Gril Chicken  <span style ="padding:0px 50px; color: orange;"> $60.00 </span> </h4> 
+						<p style = "padding:0px 10px; color:white;"> Lorem ipsum is simply dummy text of the printing and typesetting industry just example for this website.<br>
+						<center><button type = "button" class = "btn btn-info three" style ="margin-top: 5px; padding: 10px 120px;"> ORDER NOW </button></center></p>
+					</div>
+					<div class = "col-lg-4 col-md-4 col-sm-12 col-xs-12"> 
+						<img src = "D:\hejex technology\project2\images\noodles1.png" class = "img-responsive" style = "border: 1px solid white; border-radius: 20px;">
+						<h4 style = "padding:0px 10px; color:white;"> Noodles  <span style ="padding:0px 60px; color: orange;"> $80.00 </span> </h4> 
+						<p style = "padding:0px 10px; color:white;"> Lorem ipsum is simply dummy text of the printing and typesetting industry just example for this website.<br>
+						<center><button type = "button" class = "btn btn-info three" style ="margin-top: 5px; padding: 10px 120px;"> ORDER NOW </button></center></p>
+					</div>
+				</div>
+				<br>
+				<center> <button type = "button" class = "btn btn-info three" style = "padding: 10px 30px;"> See All Item </button> </center>
+			</div>
+			<br>
+			<div class ="container">
+				<div class = "row">
+					<div class = "col-lg-12 col-md-12 col-sm-12 col-xs-11 carousel-inner">
+					<div class = "col-sm-1 col-xs-1"> </div>
+						<center> <img src ="D:\hejex technology\project2\images\foodoffer2.png" class ="img-responsive"> </center>
+						<div class = "carousel-caption four">
+							<h3> Today's Hot Offer </h3>
+							<p style = "text-align: justify;"> Lorem ipsum is simply dummy text of the printing and typesetting industry just example for this website.
+								Lorem ipsum is simply dummy text of the printing and typesetting industry just example for this website.
+							</p>
+							<mark> 50% offers </mark><br><br>
+							<button type = "button" class = "btn btn-info five"> Order Now </button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<br>
+			<div class = "container">
+				<center> <h2 style="color:white;"> Recipe Tips </h2> </center>
+				<center> <p style="color:white;"> Lorem ipsum is simply dummy text of the printing and typesetting industry just example for this website. </p> </center>
+				<div class = "row">
+					<div class = "col-lg-4 col-md-4 col-sm-12 col-xs-12" style = "border: 1px hidden black;">
+						<img src = "D:\hejex technology\project2\images\frenchfries1.png" class = "img-responsive" style = "border: 1px solid white; border-radius: 70px;">
+						<h4 style = "padding:0px 10px; color:white;"> How to Make Fries </h4>
+						<p style = "padding:0px 10px; color:white;"> Lorem ipsum is simply dummy text of the printing and typesetting industry just example for this website. 
+						<center> <button type = "button" class = "btn btn-info three"> Read More </button> </center> </p>
+					</div>
+					<div class = "col-lg-4 col-md-4 col-sm-12 col-xs-12" style = "border: 1px hidden black;">
+						<img src = "D:\hejex technology\project2\images\friedchicken2.png" class = "img-responsive" style = "border: 1px solid white; border-radius: 70px;">
+						<h4 style = "padding:0px 10px; color:white;"> What is the Secret of Fries Chicken! </h4>
+						<p style = "padding:0px 10px; color:white;"> Lorem ipsum is simply dummy text of the printing and typesetting industry just example for this website. 
+						<center> <button type = "button" class = "btn btn-info three"> Read More </button> </center> </p>
+					</div>
+					<div class = "col-lg-4 col-md-4 col-sm-12 col-xs-12" style = "border: 1px hidden black;">
+						<img src = "D:\hejex technology\project2\images\burger2.png" class = "img-responsive" style = "border: 1px solid white; border-radius: 70px;">
+						<h4 style = "padding:0px 10px; color:white;"> How to Make Burger </h4>
+						<p style = "padding:0px 10px; color:white;"> Lorem ipsum is simply dummy text of the printing and typesetting industry just example for this website. 
+						<center> <button type = "button" class = "btn btn-info three"> Read More </button> </center> </p>
+					</div>
+				</div>
+			</div>
+			<br>
+			<div class = "container">
+				<center> <h2 style="color:white;"> Testimonials </h2> <center>
+				<div class = "row">
+					<div class = "col-lg-4 col-md-4 col-sm-12 col-xs-12">
+						<img src ="D:\hejex technology\project2\images\customer-feedback-testimonial-social-media-post-web-banner-template_169307-1900.webp"  class = "img-responsive">
+					</div>
+					<div class = "col-lg-4 col-md-4 col-sm-12 col-xs-12">
+						<img src ="D:\hejex technology\project2\images\customer-feedback-testimonial-social-media-post-web-banner-template_169307-1887.webp"  class ="img-responsive">
+					</div>
+					<div class = "col-lg-4 col-md-4 col-sm-12 col-xs-12">
+						<img src = "D:\hejex technology\project2\images\psd-customer-feedback-testimonial-social-media-post-web-banner-template_634279-260.webp" class = "img-responsive">
+					</div>
+				</div>
+				<div class = "row">
+					<div class = "col-lg-4 col-md-4 col-sm-4 col-xs-4">
+						<h3 style="color:white;"> Subscribe to News </h3>
+						<p style="color:white;"> Lorem ipsum is simply dummy text of the printing. </p>
+					
+					</div>
+					<div class = "col-lg-4 col-md-4 col-sm-4 col-xs-4" style = "margin: 30px 0px;">
+						<input type ="email" id = "email" placeholder = "Your Email Address">
+					</div>
+					<div class = "col-lg-4 col-md-4 col-sm-5 col-xs-5" style = "margin: 30px 0px;">
+						<button type = "button" class = "btn btn-info three"> Subscribe </button>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div class = "container" style="color:white;">
+				<div class = "row">
+					<div class = "col-lg-1 col-md-1">
+						
+					</div>
+					<div class = "col-lg-4 col-md-4 col-sm-12 col-xs-12">
+						<img src ="D:\hejex technology\project2\images\logo.png" class = "img-responsive" style = "border: 1px hidden black; border-radius: 30px;">
+					</div>
+					<div class = "col-lg-2 col-md-2 col-sm-12 col-xs-12" style = "margin: 80px 0px;">
+						<h4> Our Location </h4>
+						<p> Banglore West,<br>Banglore City,<br>Pincode-560002,<br>Karnataka. </p>
+					
+					</div>
+					<div class = "col-lg-2 col-md-2 col-sm-12 col-xs-12" style = "margin: 80px 0px;">
+						<h4> Booking Table </h4>
+						<p> Call us any time for a booking a table.<br>
+						+91 8220107548 
+						<a href = "#"> enchanmentdining00@gmail.com </a> </p>
+					</div>
+					<div class = "col-lg-2 col-md-2 col-sm-12 col-xs-12" style = "margin: 80px 0px;">
+						<h4> Opening Hours </h4>
+						<p> Sunday - Saturday<br> 09.00am - 11.00pm</p>
+					</div>
+					<div class = "col-lg-1 col-md-1">
+						
+					</div>
+				</div>
+			</div>		
+		</div>
+		<hr>
+		<div class="container">
+			<center> <p style="color:white;"> copyright2024 ABC.All Rights Reserved.Designed by <mark><button type="button" class="btn btn-link"> Tamilarasan </button></mark> </p> </center>
+		</div>
+		<div class = "container-fluid three">
+			<center> <h2> Thank's For Visit </h3></center>
+		</div>
+	</body>
+</html>
