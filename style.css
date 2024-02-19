@@ -1,24 +1,27 @@
-			body{
+						body{
 				font-family:Arial,Helvatice,san-serif;
-				background-image:url("images/OIP (1).jpg");
+				background-image:url("D:/hejex technology/project/images/OIP (1).jpg");
 				}
 			.one{
 				color:white;
 				}
 			.two{
-				background-color:orange;
-				color:white;
-				padding:5px 40px;
+					margin-bottom:20px;
+					background-color:orange;
+					color: white;
 				}
-			.three{
+			#three{
+				color:orange;
+				}
+			#button_color{
+				background-color: orange;
+				color: white;
 				border:1px solid orange;
-				padding:5px 40px;
-				background-color:white;
 				}
 			.four{
-				border:1px solid orange;
-				padding:5px 40px;
+				margin-bottom:20px;
 				background-color:white;
+				color:block;
 				}
 			.five{
 				border:1px solid orange;
