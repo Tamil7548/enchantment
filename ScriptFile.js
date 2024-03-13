@@ -15,6 +15,18 @@ function ValidationForm(){
         alert(" Enter your Table Number")
         return false
     }
+    else if(date==null || date==""){
+        alert("Enter Date")
+        return false
+    }
+    else if(time==null || time==""){
+        alert("Enter Time ")
+        return false
+    }
+    else if(email==null || email==""){
+        alert("Enter Email_Id");
+        return false
+    }
     else{
         alert("Your Reservation is completed...Thank You " + name);
         return true;
