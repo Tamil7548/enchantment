@@ -2,6 +2,9 @@ function ValidationForm(){
     var name=document.f1.name.value;
     var phno=document.f1.phnumber.value;
     var table=document.f1.tabnum.value;
+    var date=document.f1.date.value;
+    var time=document.f1.time.value;
+    var email=document.f1.email.value;
 
     if(name==null || name==""){
         alert("Name can't be blank");
